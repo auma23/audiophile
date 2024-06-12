@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import data from '../data.json';
 import '../index.css';
+import manListeningImage from '../assets/images/image7.png';
 
 const SpeakerDetailPage = ({ addToCart }) => {
   const { productId } = useParams();
@@ -132,7 +133,8 @@ const SpeakerDetailPage = ({ addToCart }) => {
 
       <div className="about p-6 bg-gray-100 text-center md:text-left">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
-          <img src="/path/to/your/image.png" alt="About Us" className="w-full md:w-1/2 ml-8 md:mb-0" />
+          {/* <img src="/path/to/your/image.png" alt="About Us" className="w-full md:w-1/2 ml-8 md:mb-0" /> */}
+          <img src={manListeningImage} alt="Listening" className="w-full md:w-1/2 ml-8 md:mb-0" />
           <div className="md:ml-8">
             <h2 className="text-3xl font-bold">Bringing You The <span className="text-orange-500">Best</span> Audio Gear</h2>
             <p className="mt-4 text-lg">
