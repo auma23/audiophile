@@ -1,16 +1,16 @@
 [build]
-  command = "npm run build"
-  publish = "dist"  
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "dist"
 
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Content-Type = "application/javascript"
+[build.environment]
+  NODE_ENV = "production"
+  NODE_VERSION = "16"
 
-[[headers]]
-  for = "/*.mjs"
-  [headers.values]
-    Content-Type = "application/javascript"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 
 
 
