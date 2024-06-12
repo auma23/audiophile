@@ -35,9 +35,9 @@ const SpeakerDetailPage = ({ addToCart }) => {
         name: product.name,
         price: product.price,
         quantity,
-        image: product.image.desktop // Pass the image data here
+        image: product.image.desktop 
       });
-      setQuantity(0); // Reset quantity after adding to cart
+      setQuantity(0); 
     }
   };
 
