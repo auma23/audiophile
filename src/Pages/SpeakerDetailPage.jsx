@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../data.json';
+import data from '../../public/data.json';
 import '../index.css';
 import manListeningImage from '../assets/images/image7.png';
 

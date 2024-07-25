@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import manListeningImage from '../assets/images/image7.png';
-import data from '../data.json';
+import data from '../../public/data.json';
 import '../index.css';
 
 const Speaker = () => {

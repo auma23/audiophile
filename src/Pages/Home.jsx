@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import Products from '../Components/Products.jsx';
-import headphonesImage from '../assets/images/image1.png';
-import zx9SpeakerImage from '../assets/images/image8.png';
-import zx7SpeakerImage from '../assets/images/image3.png';
+import headphonesImage from '../../public/home/desktop/image-hero.jpg';
+import zx9SpeakerImage from '../../public/home/desktop/image-speaker-zx9.png';
+import zx7SpeakerImage from '../../public/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg';
 import yx1EarphonesImage from '../assets/images/image4.png';
 import manListeningImage from '../assets/images/image7.png';
 import '../index.css';
